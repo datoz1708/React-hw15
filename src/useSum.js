@@ -1,10 +1,10 @@
 import { useEffect } from 'react';
 
 
-function useSum(a, b) {
+function UseSum(a, b) {
   useEffect(() => {
     document.write("ჯამი:", a + b);
   }, [a, b]);
 }
 
-export default useSum;
+export default UseSum;
