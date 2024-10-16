@@ -1,10 +1,10 @@
 import React from 'react';
-import ToggleImage from './ToggleImage';
+import DisplayDateTime from './DisplayDateTime';
 
 function App() {
   return (
     <div className="App">
-      <ToggleImage />
+      <DisplayDateTime />
     </div>
   );
 }
