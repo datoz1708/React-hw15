@@ -1,10 +1,10 @@
 import React from 'react';
-import ChangeBackground from './ChangeBackground'; // ახალი კომპონენტის იმპორტი
+import SquareRenderer from './SquareRenderer';
 
 function App() {
   return (
     <div className="App">
-      <ChangeBackground />
+      <SquareRenderer />
     </div>
   );
 }
