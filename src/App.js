@@ -1,10 +1,10 @@
 import React from 'react';
-import DisplayDateTime from './DisplayDateTime';
+import ChangeBackground from './ChangeBackground'; // ახალი კომპონენტის იმპორტი
 
 function App() {
   return (
     <div className="App">
-      <DisplayDateTime />
+      <ChangeBackground />
     </div>
   );
 }
