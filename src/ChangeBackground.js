@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 const ChangeBackground = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
-      document.body.style.backgroundColor = '#f0a500';
+      document.body.style.backgroundColor = "orange";
     }, 2000);
 
     return () => clearTimeout(timer);
@@ -11,7 +11,7 @@ const ChangeBackground = () => {
 
   return (
     <div>
-      <h1>Watch the background color change after 2 seconds!</h1>
+      <h1>ეკრანის ფონი შეიცვლება 2 წამში</h1>
     </div>
   );
 };
