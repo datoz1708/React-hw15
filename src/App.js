@@ -1,5 +1,5 @@
 import React from 'react';
-import useSum from './useSum'; // ჰუკის იმპორტი
+import useSum from './UseSum'; // ჰუკის იმპორტი
 
 const App = () => {
   const num1 = 5;
