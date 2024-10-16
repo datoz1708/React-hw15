@@ -1,4 +1,3 @@
-import React from 'react';
 import UseSum from './UseSum';
 
 const App = () => {
